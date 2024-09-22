@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/HTML/04-milestone.html" }
+    ]
+  }
+  

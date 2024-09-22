@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../CSS/04-milestone.css" rel="stylesheet" />
+
+    <title>Editable Resume</title>
+
+  </head>
+  
+  <body>
+    
+    <h1 id="h1"><label><u>-Interactive Editable Resume-</u></label></h1>
+    <div id="div1">
+      
+      <form id="resumeForm">
+        
+        <section class="sec">
+            
+          <h2><label><u>Personal Information:</u></label>
+
+            
+
+            <div id="imgDiv">
+              <h4><label><b><u>Upload a Picture:</u></b></label>
+                <p style="font-size:xx-large"><label id="imgLabel" for="fileUpload">Click here to upload an image</label></p></h4>
+                <input type="file" id="fileUpload" accept="image/*" onchange="previewImage(event)">
+                <img id="img" alt="Image" style="display:none;"/>
+            </div></h2>
+          
+          
+            <li>
+              <b><label for="name">*Enter Your Name:</label></b>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                size="60"
+                class="inp"
+              />
+            </li>
+            <li>
+              <b><label>*Enter Your Age:</label> </b
+              ><input id="age" type="number" size="60" required class="inp" />
+            </li>
+            <li>
+              <b><label>*Enter Your Email Address:</label> </b>
+              <input id="email" type="email" name="email" size="60" required class="inp" />
+            </li>
+          
+        </section>
+
+        <section class="sec">
+          <h2><label><u>*Education:</u></label></h2>
+          
+            <li>
+              <b><label>*Enter Your Qualification:</label></b
+              ><input id="edu" type="text" size="60" required class="inp" />
+            </li>
+          
+        </section>
+
+        <section class="sec">
+          <h2><label><u>Work Experience:</u></label></h2>
+          
+            <li>
+              <b><label>*Enter Your Work Experience:</label></b>
+              <input id="exp" type="text" size="60" required class="inp" />
+            </li>
+          
+        </section>
+
+        <section class="sec">
+         
+            <li><h2><label><u>Skills:</u></label></h2></li>
+            <li><b><label>*Enter Your Skills:</label></b></li>
+          
+          
+            <li>*
+              <input id="ski" type="text" size="60" required class="inp" />
+            </li>
+            <li><input id="ski2" type="text" size="60" class="inp" /></li>
+            <li><input id="ski3" type="text" size="60" class="inp" /></li>
+            <li><input id="ski4" type="text" size="60" class="inp" /></li>
+            <li><input id="ski5" type="text" size="60" class="inp" /></li>
+        
+        </section>
+      </form>
+      
+      <button id="btn1">Click Here To Generate Resume</button>
+
+      <div id="div2"></div>
+
+      <script id="script" src="../TypeScript-JavaScript/04-milestone.js"></script>
+    </div>
+  </body>
+</html>

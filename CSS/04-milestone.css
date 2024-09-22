@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(46, 151, 107);
+}
+
+#div1{
+    background-color: rgba(145, 54, 145, 0.74);
+    font-size:xx-large;
+    font-family:cursive;
+    text-align: center;
+}
+
+#h1{
+    text-align:center;
+    background-color:rgba(145, 54, 145, 0.74);
+}
+
+.sec{
+    background-color: rgb(46, 151, 107);
+}
+
+#btn1{
+    font-size: x-large;
+    background-color: rgb(46, 151, 107);
+    color: rgb(255, 255, 255);
+    margin-left: 65%
+}
+
+.inp{
+  width: 253px;
+  height: 20px;
+ font-size: 16px;
+  
+  margin-bottom: 12px;
+  box-sizing: border-box; 
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  background-color: rgb(214, 211, 211);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#imgLabel {
+    color: white;
+    background-color: rgba(145, 54, 145, 0.74);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+    padding-top: 10px;
+    border: 1px solid #3cff00;
+    border-radius: 40px;
+    margin: 0 auto;  
+}
