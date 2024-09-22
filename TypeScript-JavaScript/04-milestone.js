@@ -51,9 +51,17 @@ document.addEventListener("DOMContentLoaded", () => {
                             .p1{
                             background-color:white;
                             }
+                            .border {
+            border: 20px solid #F7DC6F;
+            padding: 10px;
+            border-radius: 80px;
+        }
+            body{
+            background-color:rgba(145, 54, 145, 0.74);
+            }
                     </style>
-                    <hr>
-                    <div id="div2" align="center">
+                    <body>
+                    <div id="div2" class="border" align="center">
                         <h2><u><label>Interactive Editable Resume:</label></u></h2>
                         <img src="${imageUrl}" alt="Uploaded Image" style="width:150px; height:150px;" /><hr>
                         <b><label>Name:</label></b> <i class="p1" contenteditable="true">${name}</i><hr>
@@ -68,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <label>4-</label><i class="p1" contenteditable="true">${ski4}</i><br>
                         <label>5-</label><i class="p1" contenteditable="true">${ski5}</i> <hr>
                     </div>
+                    </body>
                 `);
                 newTab.document.close();
             }
