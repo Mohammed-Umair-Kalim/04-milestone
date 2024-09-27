@@ -24,6 +24,7 @@ body{
     color: rgb(17, 230, 141);
     margin-left: 65%;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .inp{
